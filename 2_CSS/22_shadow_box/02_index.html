@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            /* This will place child box at center horizontally */
+            justify-content:center;     
+            /* This will place child box at center vertically */
+            align-items: center;
+
+        }
+
+        img{
+            height: 100px;
+        }
+
+        .box{
+            /* creating a variable */
+            --primary-color:brown;
+            --custom-width:330px
+            background-color: aquamarine;
+            width: var(--custom-width);
+            height: 330px;
+            border: 2px solid var(--primary-color);
+            margin: 5px;
+            padding: 5px;
+            /* box-shadow: 10px 10px brown; */
+
+            /* Adding box-shadow with blur effect */
+            /* box-shadow: 10px 10px 5px brown; */
+
+            /* Adding spread radius in this box-shadow */
+            /* box-shadow: 10px 15px 5px 100px brown; */
+
+            /* Now shadow will come inside of the box */
+            /* box-shadow: inset 10px 15px 10px brown; */
+
+            /* Adding multiple colors in the shadow */
+            box-shadow: 10px 10px 5px red,15px 15px 5px green;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="box">
+            <img src="img1.webp" alt="Doremon">
+            <h2>Welcome to CodeHelp</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore tempore, illo voluptatum eius porro molestias, animi provident molestiae dolore temporibus sed consectetur recusandae sequi quo?</p>
+        </div>
+
+
+    </div>
+</body>
+</html>

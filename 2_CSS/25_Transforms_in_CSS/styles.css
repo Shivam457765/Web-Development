@@ -1,0 +1,48 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+    border:5px solid rgb(228, 7, 7);
+
+    display: flex;
+    /* Placed Horizontally at center */
+    justify-content: center;
+    /* Placed vertically at center */
+    align-items: center;
+
+    /* placing box horizontally at center */
+    /* margin: auto; */
+
+
+    transition: all 2s linear 1s;
+}
+
+.container{
+    border: 2px solid red;
+    height: 850px;
+    width: 1530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    /* This will rotate the box */
+    /* transform: rotate(360deg); */
+
+    /* This will increase the size of box */
+    /* transform: scale(2);
+    transform: rotate(-45deg); */
+
+    /* This will tilt the box */
+    /* transform: skew(-45deg); */
+
+    /*  */
+    transform: translate(-400px,200px);
+
+}
+
+p{
+    font-size: 36px;
+}

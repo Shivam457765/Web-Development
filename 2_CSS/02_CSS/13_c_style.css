@@ -1,0 +1,27 @@
+/* External CSS file */
+/* First create an external CSS file */
+/* And then Link that file with your html file. */
+/* Now we'll start to code our website */
+
+
+/* priority in Internal and External CSS depends on the basis of order whichever comes 
+   first has the more priority over the other. */
+
+h1 {
+    font-size: large;
+    text-align: center;
+    color: red;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    background-color: rgb(246, 31, 2);
+    color: rgb(242, 244, 242);
+}
+
+footer{
+    color: aliceblue;
+}

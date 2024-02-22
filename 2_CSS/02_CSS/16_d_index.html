@@ -1,0 +1,65 @@
+<!-- Inline-Block behaves like an inline element but Custom height and width can 
+    be set here. -->
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing:border-box;
+            }
+    
+            .box{
+                /* Converting block element div to Inline element */
+                display: inline;
+    
+                width: 300px;
+                height: 300px;
+                border: 2px solid red;
+                padding: 20px;
+            }
+    
+    
+            /* Inline Elements like span tag and anchor tag properties */
+            /* They try to come in the same line if space is avialable else 
+            they will come in second line */
+            /* Their width is equal to Content Width */
+            /* we cannot add custom height and width */
+            /* Custom Margin can be added in Horizontal direction and cannot be added in 
+            Verticle direction but padding can be added on all the sides. */
+    
+            span{
+                border: 2px solid green;
+                width: 300px;
+                height: 200px;
+    
+                margin: 5px;
+                padding: 5px;
+    
+    
+                /* Converting Inline element span to Inline-block element */
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <div class="box">
+            Welcome to CodeHelp
+        </div>
+     -->
+        <span>
+            This is Shivam Kumar Rai
+        </span>
+    
+        <span>
+            This is Shivam Kumar Rai 2.0
+        </span>
+    </body>
+    </html>

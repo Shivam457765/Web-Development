@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main_container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-container {
+    flex: 1;
+    background: rgb(67,67,120);
+    background: linear-gradient(90deg, rgb(161, 144, 222) 0%, rgb(144, 130, 202) 50%, rgb(150, 134, 209) 100%);
+    color: aliceblue;
+    border: 2px solid rgb(121, 121, 199);
+}
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container {
+    flex: 1;
+    background: rgb(67,67,120);
+    background: linear-gradient(90deg, rgb(194, 194, 220) 0%, rgb(145, 145, 165) 50%, rgb(142, 144, 160) 100%);    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.right-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%; 
+    margin: 0 auto; 
+}
+
+.right-container label, .right-container input[type="email"], .right-container input[type="password"], .right-container input[type="submit"] {
+    width: 100%; 
+    margin-bottom: 10px;
+}
+
+.right-container input[type="submit"] {
+    width: auto; /* Allow the button to adjust its width based on content */
+    height: 35px; /* Set the height of the button */
+    font-size: 1rem; /* Set the font size of the button text */
+    padding: 5px 10px; /* Set padding inside the button */
+    border: 2px solid rgb(94, 92, 92);
+    border-radius: 10px;
+}
+
+.login-account {
+    color: #FF4500; 
+}
+
+#greetmsg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+#webname{
+    font-size: 2rem;
+}
+
+#greetmsg #msg1{
+    font-size: 1.5rem;
+    margin-bottom: 0.1rem;
+}
+#greetmsg #msg2{
+    font-size: 3rem;
+    margin-top: 0.1rem;
+}
+#greetmsg #msg3{
+    font-size: 1.5rem;
+    margin-top: 0.1rem;
+}
+
+.right-container .msg1{
+    font-size: 1.5rem;
+}

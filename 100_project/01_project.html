@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="main_container">
+        <div class="left-container">
+            <header id="webname">
+                <h3>Company name</h1>
+            </header>
+            <div class="left-box">
+                <section id="greetmsg">
+                    <div id="msg1">
+                        <h1>Nice to see you again!</h1>
+                    </div>
+                    <div id="msg2">
+                        <h1>WELCOME BACK</h1>
+                    </div>
+                    <div id="msg3">
+                        <p>Crow bhai yaha pe apne website ka chota sa description likh diyo samjha.Aur baki kahi bhi change mat kariyo. Aur ha upar apni company ka naam bhi likh diyo agar maan kare toh.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="right-container">
+            <header class="msg1">
+                <h1>Login Account</h1>
+            </header>
+            <form id="form"  action="/login" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+        
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+        
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

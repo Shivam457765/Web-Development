@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* max-width: 95vw; */
+
+    margin: 2rem;
+    padding: 2rem;
+    gap: 1rem;
+
+    border: 2px solid red;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+}
+
+.heading{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    gap: 10px;
+}
+
+.heading h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.headdesc{
+    max-width: 500px;
+}
+
+#card{
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px black;
+
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    overflow: hidden;
+}
+
+.cardimg{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.cimg{
+    
+    height: 14rem;
+    max-width: 100%;
+}
+
+.textbox{
+    align-items: center;
+    padding: 10px;
+
+
+
+}
+
+.Cardfooter{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+.avatar{
+    width: 45px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.avatardesc{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 2px;
+}
+
+.rightbox{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
